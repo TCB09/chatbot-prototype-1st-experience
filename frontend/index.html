@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website Menawan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Tambahkan link CSS Font Awesome di bagian <head> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    
+</head>
+
+
+<!--Ini Adalah Body Utama Bagian Web Sistem Pakar-->
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#">
+            <img src="gambar/logo-toyota-transparent-19.png" alt="Toyota Logo" class="logo">
+        </a>
+        <div class="logo">Toyota Fix<span> Care</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Foto Hero -->
+    <section id="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <img src="gambar/maxime-agnelli-6neOO6DmkiY-unsplash.jpg" alt="Banner Image 1">
+            </div>
+            <div class="hero-slide">
+                <img src="gambar/joseph-greve-8iWevF9a2Dg-unsplash.jpg" alt="Banner Image 2">
+            </div>
+            <div class="hero-slide">
+                <img src="gambar/amith-ramakrishna-dpreeHRIIDA-unsplash.jpg" alt="Banner Image 3">
+            </div>
+        </div>
+    </section>
+
+
+        <!--Bagian Web Layanan Konsultasi Sistem Pakar Web-->
+    <div class="konsultasi">
+        <!-- Bagian Konten Layanan Konsultasi -->
+        <section id="chatbot" class="chatbot">
+            <div id="layanan-konsultasi" data-aos="fade-up">
+                <!-- Konten Layanan Konsultasi -->
+            </div>    
+            <div class="chat-container">
+                <h2 style="color: black;">Layanan Konsultasi</h2>
+                
+                <!-- Bagian Tombol Chat Now akan membuka halaman chat.html di tab baru -->
+                <a href="chat.html" class="chat-btn">Chat Now</a>
+                
+                <!-- Bagian Kalimat Penawaran -->
+                <div class="chat-offer-container">
+                    <p class="chat-question">Ingin berkonsultasi langsung dengan ahli kami?</p>
+                    <p class="chat-offer">
+                        Klik tombol di atas dan dapatkan solusi terbaik untuk kebutuhan Anda!
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!--Bagian Chat Box atau bagian layanan klik tombol pada Layanan Konsultasi-->
+    <!-- Chat Box -->
+    <div id="chatbox" style="display: none;">
+        <div id="chat-header">
+            <span>Chat Konsultasi</span>
+            <button id="close-chat">X</button>
+        </div>
+        <div id="chat-content">
+            <!-- Isi percakapan akan ditampilkan di sini -->
+        </div>
+        <input type="text" id="user-input" placeholder="Ketik pesan..." />
+        <button id="send-message">Kirim</button>
+    </div>
+
+    <div class="our-services">
+        <div class="service-item our-service-animate">
+            <!-- Konten Layanan 1 -->
+        </div>
+        <div class="service-item our-service-animate">
+            <!-- Konten Layanan 2 -->
+        </div>
+        <!-- Tambahkan elemen lainnya sesuai kebutuhan -->
+    </div>
+  
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-content">
+                <div class="service-item" onclick="toggleFlip(this)">
+                    <div class="service-image-container">
+                        <div class="service-image">
+                            <img src="gambar/chuttersnap-gts_Eh4g1lk-unsplash.jpg" alt="Service 1" class="service-image-front">
+                        </div>
+
+                        <div class="service-image-back">
+                            <p>Learn More About Expert Consultation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item" onclick="toggleFlip(this)">
+                    <div class="service-image-container">
+                        <div class="service-image">
+                            <img src="gambar/screen-shot-2023-01-09-at-10-05-03-am-1673276727.png" alt="Service 2" class="service-image-front">
+                        </div>
+
+                        <div class="service-image-back">
+                            <p>Learn More About Custom Solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item" onclick="toggleFlip(this)">
+                    <div class="service-image-container">
+                        <div class="service-image"> 
+                            <img src="gambar/What-is-an-Automotive-Technician-1.jpg" alt="Service 3" class="service-image-front">
+                        </div>
+                        <div class="service-image-back">
+                            <p>Learn More About 24/7 Support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!---->
+
+
+    <!-- Section with Image on Right and Description on Left -->    
+    <section id="about-details" class="about-details">
+        <div class="about-title">
+            <h2 class="section-title">About Us</h2>
+        </div> 
+        <div class="about-details-content">
+            <div class="about-description">
+                <h2>Solusi Terbaik untuk Anda</h2>
+                <p>Kami menggabungkan keahlian kami dengan teknologi canggih untuk menghadirkan solusi terbaik bagi Anda. Dengan tim ahli yang berdedikasi, kami siap membantu Anda dengan konsultasi sistem pakar yang dapat disesuaikan dengan kebutuhan Anda.</p>
+            </div>
+
+            <div class="about-image">
+                <img src="gambar/abdullah-malik-LQ-Wlcdnpbs-unsplash.jpg" alt="Gambar Konsultasi Ahli">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Bagian Footer Web Sistem Pakar-->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="gambar/toyota-beyond-seeklogo.png" alt="Logo Toyota" class="footer-logo"> 
+                <img src="gambar/ToyotaGazooRacing_Logo_White.png" alt="New Logo" class="footer-logo">
+            </div>
+
+            <div class="footer-separator"></div>
+
+            <div class="footer-middle">
+                <h3>Social Media</h3>
+                <div class="footer-quick-links">
+                    <ul>
+                        <li><i class="fab fa-facebook"></i> <a href="https://facebook.com">Facebook</a></li>
+                        <li><i class="fab fa-twitter"></i> <a href="https://twitter.com">Twitter</a></li>
+                        <li><i class="fab fa-instagram"></i> <a href="https://instagram.com">Instagram</a></li>
+                        <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <h3>PT. Hasjrat Abadi | Toyota Sorong</h3>
+                <div class="footer-address">
+                    <p><strong>Alamat:</strong>Jl.Jendral Ahmad Yani, Kota Sorong</p>
+                    <p><strong>Email :</strong>info@systempakar.com</p>
+                    <p><strong>Phone :</strong>+62 812-3456-7890</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sistem Pakar. All rights reserved.</p>
+            <p>Teknik Informatika | UNAMIN SORONG.</p>
+        </div>
+    </footer>
+
+
+
+    <!--Bagian Javascript Website Utama -->
+    <!-- Tambahkan JavaScript Files -->
+    <script src="script.js" defer></script>
+    <script src="chat.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        // Fungsi untuk menangani upload PDF dan menampilkan teks
+        document.getElementById('pdfForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            var formData = new FormData();
+            formData.append('file', document.getElementById('file').files[0]);
+
+            fetch('/extract-pdf', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.text) {
+                    alert('Teks PDF berhasil diekstrak!');
+                    console.log(data.text); // Tampilkan teks yang diekstrak di console
+                } else {
+                    alert('Gagal mengekstrak teks.');
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        });
+
+        // Inisialisasi AOS (Animate on Scroll)
+        AOS.init();
+    </script>
+
+<!--Selessai-->
+
+</body>
+</html>

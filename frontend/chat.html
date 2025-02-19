@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Konsultasi</title>
+    <link rel="stylesheet" href="chat-style.css">
+</head>
+
+<!--Ini adalah halaman body utama chat web sistem pakar-->
+<body>
+    <!-- Modal Selamat Datang -->
+    <div id="welcomeModal" class="welcome-modal">
+        <div class="modal-content">
+            <img src="gambar/pngtree-smart-ai-gear-vector-icon-for-web-design-vector-png-image_12719556.png" alt="Robot AI" class="ai-avatar">
+            <h1>Selamat Datang!</h1>
+            <p>Saya di sini untuk membantu Anda. Silakan tanyakan apa saja terkait permasalahan mobil Anda!</p>
+            <button id="startChatButton">Mulai Konsultasi</button>
+        </div>
+    </div>
+
+    <!-- Sidebar Riwayat Chat -->
+    <div class="sidebar">
+        <h3>Riwayat Chat</h3>
+        <div id="chatHistory">
+            <!-- Riwayat chat akan ditambahkan secara dinamis -->
+        </div>
+        <!-- Tombol untuk menghapus riwayat chat -->
+        <button id="clearHistoryButton">Hapus Riwayat</button>
+    </div>
+
+    <!-- Area Chat -->
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Chat Konsultasi</h2>
+        </div>
+        <div class="chat-box">
+            <!-- Pesan bot pembuka -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Ketik pesan Anda...">
+            <button id="sendButton">Kirim</button>
+        </div>
+    </div>
+
+    <script src="chat.js"></script>
+
+
+    <!---   Selesai     -->
+</body>
+</html>
