@@ -1,0 +1,32 @@
+[
+  {
+      "id": 1,
+      "nama_komponen": "Aki",
+      "deskripsi": "Aki adalah sumber daya utama untuk menghidupkan mesin mobil dan menyediakan daya untuk sistem kelistrikan."
+  },
+  {
+      "id": 2,
+      "nama_komponen": "Starter",
+      "deskripsi": "Starter adalah perangkat yang digunakan untuk memutar mesin agar dapat mulai beroperasi."
+  },
+  {
+      "id": 3,
+      "nama_komponen": "Alternator",
+      "deskripsi": "Alternator adalah perangkat yang mengisi ulang daya aki saat mesin mobil sedang berjalan."
+  },
+  {
+      "id": 4,
+      "nama_komponen": "Filter udara",
+      "deskripsi": "Filter udara berfungsi untuk menyaring debu dan kotoran agar tidak masuk ke ruang pembakaran."
+  },
+  {
+      "id": 5,
+      "nama_komponen": "Kompresor AC",
+      "deskripsi": "Kompresor AC adalah komponen yang memompa freon sehingga dapat mendinginkan udara di dalam kabin mobil."
+  },
+  {
+      "id": 6,
+      "nama_komponen": "Kampas rem",
+      "deskripsi": "Kampas rem adalah bagian yang berfungsi menekan cakram atau tromol untuk mengurangi kecepatan kendaraan."
+  }
+]

@@ -1,0 +1,133 @@
+[
+    {
+      "gejala": "Lampu depan redup atau mati",
+      "penyebab": "Kemungkinan besar ada masalah pada sistem kelistrikan, bisa jadi lampu putus atau ada kabel yang lepas.",
+      "solusi": "Periksa kondisi lampu dan kabel. Ganti lampu jika putus, atau sambungkan kembali kabel yang lepas."
+    },
+    {
+      "gejala": "AC mobil tidak dingin",
+      "penyebab": "AC mobil bisa tidak dingin karena beberapa faktor, seperti kebocoran freon atau kompresor yang tidak berfungsi.",
+      "solusi": "Periksa sistem AC untuk kebocoran freon atau pastikan kompresor bekerja dengan baik. Isi ulang freon jika diperlukan."
+    },
+    {
+      "gejala": "Mesin sulit dihidupkan",
+      "penyebab": "Kemungkinan ada masalah pada baterai, starter, atau sistem bahan bakar.",
+      "solusi": "Periksa kondisi baterai dan pastikan masih memiliki daya. Periksa starter dan sistem bahan bakar untuk memastikan tidak ada penyumbatan."
+    },
+    {
+      "gejala": "Rem berbunyi berdecit",
+      "penyebab": "Kemungkinan kampas rem sudah aus atau terdapat kotoran pada cakram rem.",
+      "solusi": "Bersihkan cakram rem dan cek kondisi kampas rem. Ganti kampas rem jika sudah aus."
+    },
+    {
+      "gejala": "Mobil bergetar saat kecepatan tinggi",
+      "penyebab": "Kemungkinan roda tidak seimbang atau suspensi bermasalah.",
+      "solusi": "Balancing roda dan periksa sistem suspensi. Ganti komponen yang rusak jika diperlukan."
+    },
+    {
+      "gejala": "Mobil sulit dikendalikan saat hujan",
+      "penyebab": "Kemungkinan ban mobil sudah aus atau tekanan angin ban tidak sesuai.",
+      "solusi": "Periksa kondisi ban dan pastikan memiliki tekanan angin yang sesuai. Ganti ban jika sudah aus."
+    },
+    {
+      "gejala": "Asap knalpot berwarna hitam",
+      "penyebab": "Pembakaran tidak sempurna, bisa disebabkan oleh campuran bahan bakar yang terlalu kaya atau filter udara yang kotor.",
+      "solusi": "Periksa filter udara dan bersihkan jika kotor. Pastikan sistem bahan bakar bekerja dengan baik."
+    },
+    {
+      "gejala": "Asap knalpot berwarna putih",
+      "penyebab": "Kemungkinan terdapat kebocoran air pendingin ke dalam ruang bakar.",
+      "solusi": "Periksa gasket kepala silinder dan sistem pendingin untuk memastikan tidak ada kebocoran."
+    },
+    {
+      "gejala": "Mesin overheat",
+      "penyebab": "Kemungkinan air radiator habis, termostat rusak, atau kipas radiator tidak berfungsi.",
+      "solusi": "Periksa level air radiator dan isi jika kurang. Periksa juga kondisi termostat dan kipas radiator."
+    },
+    {
+      "gejala": "Steering terasa berat",
+      "penyebab": "Kemungkinan oli power steering berkurang atau ada masalah pada pompa power steering.",
+      "solusi": "Periksa level oli power steering dan tambahkan jika kurang. Periksa juga kondisi pompa power steering."
+    },
+    {
+      "gejala": "Suara berisik dari mesin",
+      "penyebab": "Kemungkinan ada komponen yang aus atau kurang pelumas.",
+      "solusi": "Periksa kondisi oli mesin dan pastikan dalam level yang cukup. Ganti komponen yang aus jika ditemukan."
+    },
+    {
+      "gejala": "Transmisi otomatis tidak responsif",
+      "penyebab": "Kemungkinan oli transmisi kurang atau ada kerusakan pada sistem transmisi.",
+      "solusi": "Periksa level oli transmisi dan tambahkan jika kurang. Jika masalah berlanjut, bawa ke bengkel untuk pengecekan lebih lanjut."
+    },
+    {
+      "gejala": "Ban mobil aus tidak merata",
+      "penyebab": "Kemungkinan sudut roda tidak sejajar atau tekanan angin ban tidak merata.",
+      "solusi": "Lakukan spooring untuk menyelaraskan roda dan pastikan tekanan angin ban sesuai rekomendasi."
+    },
+    {
+      "gejala": "Lampu indikator mesin menyala",
+      "penyebab": "Kemungkinan ada masalah pada sensor mesin atau sistem emisi.",
+      "solusi": "Gunakan alat pemindai (scanner) untuk membaca kode kesalahan. Perbaiki sesuai kode yang terdeteksi."
+    },
+    {
+      "gejala": "Bunyi keras saat mengerem",
+      "penyebab": "Kemungkinan cakram rem retak atau kampas rem terlalu tipis.",
+      "solusi": "Periksa cakram rem dan kampas rem. Ganti komponen yang rusak atau aus."
+    },
+    {
+      "gejala": "Klakson tidak berbunyi",
+      "penyebab": "Kemungkinan ada masalah pada koneksi kelistrikan atau tombol klakson.",
+      "solusi": "Periksa kabel klakson dan tombolnya. Ganti komponen yang rusak jika diperlukan."
+    },
+    {
+      "gejala": "Bahan bakar boros",
+      "penyebab": "Kemungkinan filter udara kotor, tekanan ban rendah, atau sensor oksigen rusak.",
+      "solusi": "Bersihkan atau ganti filter udara. Pastikan tekanan ban sesuai rekomendasi. Periksa sensor oksigen jika masalah berlanjut."
+    },
+    {
+      "gejala": "Mobil tidak bisa berjalan meski mesin menyala",
+      "penyebab": "Kemungkinan ada masalah pada kopling atau sistem transmisi.",
+      "solusi": "Periksa kondisi kopling dan pastikan berfungsi dengan baik. Jika perlu, bawa ke bengkel untuk pemeriksaan lebih lanjut."
+    },
+    {
+      "gejala": "Suspensi depan bunyi berdecit",
+      "penyebab": "Kemungkinan ada kerusakan pada bantalan atau bushings suspensi.",
+      "solusi": "Periksa kondisi bantalan dan bushings suspensi. Ganti komponen yang rusak."
+    },
+    {
+      "gejala": "Mobil bergetar saat menghidupkan mesin",
+      "penyebab": "Kemungkinan ada masalah pada sistem pembakaran atau kompresi mesin.",
+      "solusi": "Periksa kondisi busi dan sistem pembakaran. Ganti busi jika sudah aus."
+    },
+    {
+      "gejala": "Kaca mobil berembun",
+      "penyebab": "Kemungkinan ada kebocoran pada sistem AC atau kelembapan tinggi di dalam kabin.",
+      "solusi": "Periksa sistem AC dan pastikan tidak ada kebocoran. Gunakan pengering udara jika diperlukan."
+    },
+    {
+      "gejala": "Performa mesin berkurang",
+      "penyebab": "Kemungkinan ada masalah pada sistem bahan bakar, filter udara, atau sensor pengatur mesin.",
+      "solusi": "Periksa filter udara dan sistem bahan bakar. Pastikan sensor pengatur mesin bekerja dengan baik."
+    },
+    {
+      "gejala": "Gerakan pedal kopling terasa berat",
+      "penyebab": "Kemungkinan ada masalah pada sistem hidrolik kopling atau kabel kopling.",
+      "solusi": "Periksa cairan hidrolik kopling dan tambahkan jika diperlukan. Periksa kabel kopling jika ada ketegangan berlebih."
+    },
+    {
+      "gejala": "Mobil bergetar saat menginjak rem",
+      "penyebab": "Kemungkinan cakram rem tidak rata atau kampas rem aus.",
+      "solusi": "Periksa kondisi cakram rem dan kampas rem. Ganti komponen yang rusak atau aus."
+    },
+    {
+      "gejala": "Sistem audio tidak mengeluarkan suara",
+      "penyebab": "Kemungkinan ada masalah pada kabel atau perangkat audio.",
+      "solusi": "Periksa kabel audio dan pastikan terhubung dengan baik. Jika masalah berlanjut, cek perangkat audio atau ganti komponen yang rusak."
+    },
+    {
+      "gejala": "Panas mesin berlebih saat berkendara di jalan menanjak",
+      "penyebab": "Kemungkinan sistem pendingin tidak berfungsi dengan baik atau radiator tersumbat.",
+      "solusi": "Periksa sistem pendingin dan pastikan radiator tidak tersumbat. Cek kondisi kipas pendingin."
+    }
+  ]
+  
